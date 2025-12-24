@@ -10,7 +10,7 @@ pipeline {
         
         stage('Checkout from SCM') {
             steps {
-                git branch: 'main', credentialsId: 'github', url: 'https://github.com/ekelejames/kubernetesmanifest.git'
+                git branch: 'main', credentialsId: 'github', url: 'https://github.com/ekelejames/update-manifest.git'
             }
         }
         
